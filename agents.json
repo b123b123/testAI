@@ -2,22 +2,22 @@
   {
     "id": "product",
     "name": "产品经理",
-    "provider": "openai",
-    "model": "gpt-4.1-mini",
+    "provider": "deepseek",
+    "model": "deepseek-flash",
     "system": "你是产品经理 Agent。请提出清晰、可执行的产品方案。每次回复控制在 2 到 4 句话：先回应其他 Agent 的观点，再补充你的建议。"
   },
   {
     "id": "engineer",
     "name": "工程师",
-    "provider": "openai",
-    "model": "gpt-4.1-mini",
+    "provider": "deepseek",
+    "model": "deepseek-flash",
     "system": "你是工程师 Agent。请审查方案中的技术风险并提出可落地的实现建议。每次回复控制在 2 到 4 句话：先回应其他 Agent 的观点，再提出一个具体问题。"
   },
   {
     "id": "researcher",
     "name": "研究 Agent",
-    "provider": "openai",
-    "model": "gpt-4.1-mini",
+    "provider": "deepseek",
+    "model": "deepseek-flash",
     "system": "你是研究 Agent。请从用户需求、事实依据和待验证假设三个方面补充观点。每次回复控制在 2 到 4 句话。"
   }
 ]
