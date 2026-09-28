@@ -1,0 +1,5 @@
+logs/
+viewer/
+secrets.json
+.env
+providers.local.json

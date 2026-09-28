@@ -1,0 +1,30 @@
+{
+  "id": "caesar-race-demo",
+  "type": "race",
+  "title": "凯撒密码破解赛",
+  "prompt": "下面是一段使用凯撒密码加密的英文句子。请独立破解密码并提交完整明文。不要猜测题目，必须根据密文分析位移。",
+  "input": {
+    "ciphertext": "YMJ VZNHP GWTBS KTC OZRUX TAJW YMJ QFED ITL"
+  },
+  "hints": [
+    "使用英文字母的经典凯撒位移密码",
+    "位移范围是 1 到 25",
+    "空格和单词结构保持不变"
+  ],
+  "solution": {
+    "answer": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG",
+    "normalizer": "text"
+  },
+  "rules": {
+    "timeoutMs": 90000,
+    "attemptsPerAgent": 2,
+    "baseScore": 100,
+    "speedBonusMax": 50,
+    "attemptPenalty": 15
+  },
+  "agentIds": [
+    "product",
+    "engineer",
+    "researcher"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "defaultProvider": "openai",
+  "providers": {
+    "openai": {
+      "type": "openai-responses",
+      "baseUrl": "https://api.openai.com/v1",
+      "apiKeyRef": "openai",
+      "modelEnv": "OPENAI_MODEL",
+      "model": "gpt-4.1-mini",
+      "timeoutMs": 120000
+    },
+    "deepseek": {
+      "type": "openai-compatible",
+      "baseUrl": "https://api.deepseek.com/v1",
+      "apiKeyRef": "deepseek",
+      "modelEnv": "DEEPSEEK_MODEL",
+      "model": "deepseek-chat",
+      "timeoutMs": 120000
+    },
+    "qwen": {
+      "type": "openai-compatible",
+      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiKeyRef": "qwen",
+      "modelEnv": "QWEN_MODEL",
+      "model": "qwen-plus",
+      "timeoutMs": 120000
+    },
+    "ollama": {
+      "type": "ollama",
+      "baseUrl": "http://127.0.0.1:11434",
+      "modelEnv": "OLLAMA_MODEL",
+      "model": "qwen3:8b",
+      "timeoutMs": 300000
+    }
+  }
+}
