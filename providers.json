@@ -10,11 +10,11 @@
       "timeoutMs": 120000
     },
     "deepseek": {
-      "type": "openai-compatible",
+      "type": "openai-responses",
       "baseUrl": "https://api.deepseek.com/v1",
       "apiKeyRef": "deepseek",
       "modelEnv": "DEEPSEEK_MODEL",
-      "model": "deepseek-chat",
+      "model": "deepseek-flash",
       "timeoutMs": 120000
     },
     "qwen": {
